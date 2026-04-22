@@ -5,5 +5,8 @@ public class gHappy {
     public static Boolean gHappy(String str){
         Boolean found = true;
         for(int i = 0; i < str.length(); i++){
+            if(str.charAt(i) == 'g'){
+                if( (i > 0 && str.charAt(i-1) == 'g') ||
+        }
     }
 }
