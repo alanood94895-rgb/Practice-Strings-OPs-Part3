@@ -1,6 +1,8 @@
 public class countYZ {
     public static void main(String[] args) {
         System.out.println(countYZ ("fez day")); //2
+        System.out.println(countYZ("day day")); //2
+
     }
     public static Integer countYZ (String str){
         int count = 0;
