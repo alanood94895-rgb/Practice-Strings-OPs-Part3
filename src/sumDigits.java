@@ -4,6 +4,7 @@ public class sumDigits {
         System.out.println(sumDigits);
     }
     public static int sumDigits(String str) {
+        int sum = 0;
 
 
 }
