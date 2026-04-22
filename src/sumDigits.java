@@ -1,7 +1,7 @@
 public class sumDigits {
     public static void main (String[] args){
         System.out.println(sumDigits ("aa1bc2d3")); //6
-        System.out.println(sumDigits ("aa11b33"));
+        System.out.println(sumDigits ("aa11b33")); //8
     }
     public static int sumDigits(String str) {
         int sum = 0;
