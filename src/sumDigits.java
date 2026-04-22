@@ -8,6 +8,8 @@ public class sumDigits {
         for (int i = 0; i < str.length(); i++) {
             if (Character.isDigit(str.charAt(i))) {
                 sum += str.charAt(i) - '0'; // convert char to int
+            }
+        }
 
 
 }
