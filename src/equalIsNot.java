@@ -11,6 +11,6 @@ public class equalIsNot {
         for (int i = 0; i < str.length(); i++) {
             if (i <= str.length() - 2 && str.substring(i, i + 2).equals("is")) {
                 isCount++;
-
-
     }
+            if (i <= str.length() - 3 && str.substring(i, i + 3).equals("not")) {
+                notCount++;
