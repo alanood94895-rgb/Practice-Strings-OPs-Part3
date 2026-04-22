@@ -1,8 +1,8 @@
 public class equalIsNot {
     public static void main(String[] args) {
-        System.out.println(equalIsNot("This is not"));        // false
-        System.out.println(equalIsNot("This is notnot"));// true
-        System.out.println(equalIsNot("noisxxnotyynotxisi")); // true
+        System.out.println(equalIsNot("This is not"));  // False
+        System.out.println(equalIsNot("This is notnot"));// True
+        System.out.println(equalIsNot("noisxxnotyynotxisi")); //True
 
     }
 
