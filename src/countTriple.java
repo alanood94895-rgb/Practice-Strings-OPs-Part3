@@ -11,3 +11,5 @@ public class countTriple {
                 count++;
         }
 }
+        return count;
+
