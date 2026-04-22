@@ -4,4 +4,7 @@ public class withoutString {
         String remove = "llo";
 
         for (int i =0; i< base.length(); i++){
+            if (base.contains(remove)){
+
+            }
 }
