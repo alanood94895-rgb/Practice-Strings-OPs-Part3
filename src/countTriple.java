@@ -1,7 +1,7 @@
 public class countTriple {
     public static void main (String[] args){
         System.out.println(countTriple ("abcXXXabc")); //1
-        System.out.println(countTriple ("xxxabyyyycd"));
+        System.out.println(countTriple ("xxxabyyyycd")); //3
     }
     public static int countTriple(String str) {
         int count = 0;
