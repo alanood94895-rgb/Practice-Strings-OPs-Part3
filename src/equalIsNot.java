@@ -5,6 +5,7 @@ public class equalIsNot {
         System.out.println(equalIsNot("noisxxnotyynotxisi")); // true
 
     }
+
     public static boolean equalIsNot(String str) {
         int isCount = 0;
         int notCount = 0;
@@ -17,3 +18,5 @@ public class equalIsNot {
             }
         }
         return isCount == notCount;
+    }
+}
