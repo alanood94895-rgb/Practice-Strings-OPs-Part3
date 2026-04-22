@@ -3,5 +3,7 @@ public class countTriple {
         System.out.println(countTriple ());
         System.out.println(countTriple ());
     }
+    public static int countTriple(String str) {
+        int count = 0;
 
 }
