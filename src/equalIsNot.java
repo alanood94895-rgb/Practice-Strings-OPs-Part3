@@ -7,6 +7,7 @@ public class equalIsNot {
     }
     public static boolean equalIsNot(String str) {
         int isCount = 0;
+        int notCount = 0;
 
 
     }
