@@ -10,6 +10,7 @@ public class sumDigits {
                 sum += str.charAt(i) - '0'; // convert char to int
             }
         }
+        return sum;
 
 
 }
