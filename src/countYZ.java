@@ -13,6 +13,6 @@ public class countYZ {
                 }
             }
         }
-
-
+        return count;
+    }
 }
