@@ -1,6 +1,6 @@
 public class countTriple {
     public static void main (String[] args){
-        System.out.println(countTriple ());
+        System.out.println(countTriple ("abcXXXabc"));
         System.out.println(countTriple ());
     }
     public static int countTriple(String str) {
