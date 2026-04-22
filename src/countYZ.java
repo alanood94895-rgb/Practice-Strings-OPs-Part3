@@ -3,7 +3,8 @@ public class countYZ {
         System.out.println(countYZ ("fez day"));
     }
     public static Integer countYZ (String str){
-
+        int count = 0;
+        str = str.toLowerCase();
     }
 
 }
