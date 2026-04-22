@@ -5,6 +5,7 @@ public class withoutString {
 
         for (int i =0; i< base.length(); i++){
             if (base.contains(remove)){
+                base =base.replace(remove, "");
 
             }
 }
