@@ -5,5 +5,6 @@ public static void main (String[] args){
 }
     public static int maxBlock(String str) {
         int max = 0;
+        int count = 0;
 
 }
