@@ -3,4 +3,26 @@ public static void main (String[] args){
     System.out.println();
     System.out.println();
 }
+    public static int sumNumbers(String str) {
+        int sum = 0;
+        String num = "";
+
+        for (int i = 0; i < str.length(); i++) {
+            if (Character.isDigit(str.charAt(i))) {
+                num += str.charAt(i); // build number
+            } else {
+                if (!num.equals("")) {
+                    sum += Integer.parseInt(num);
+                    num = "";
+                }
+            }
+        }
+
+        // add last number if exists
+        if (!num.equals("")) {
+            sum += Integer.parseInt(num);
+        }
+
+        return sum;
+    }
 }
