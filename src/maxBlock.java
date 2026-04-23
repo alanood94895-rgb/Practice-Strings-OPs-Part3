@@ -1,7 +1,7 @@
 public class maxBlock {
     public static void main(String[] args) {
         System.out.println(maxBlock("hoopla")); //2
-        System.out.println(maxBlock("abbCCCddBBBxx"));
+        System.out.println(maxBlock("abbCCCddBBBxx")); //3
     }
 
     public static int maxBlock(String str) {
