@@ -4,5 +4,5 @@ public class sameEnds {
         System.out.println();
     }
     public static String sameEnds(String str) {
-
+        String result = "";
 }
