@@ -8,5 +8,6 @@ public static void main (String[] args){
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
             if (i == 0 || str.charAt(i) != str.charAt(i - 1)) {
+                count = 1;
 
 }
