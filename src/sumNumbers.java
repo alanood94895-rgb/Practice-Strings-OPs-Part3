@@ -1,7 +1,7 @@
 public class sumNumbers {
 public static void main (String[] args){
     System.out.println(sumNumbers("abc123xyz")); //123
-    System.out.println(sumNumbers("aa11b33"));
+    System.out.println(sumNumbers("aa11b33")); //44
 }
     public static int sumNumbers(String str) {
         int sum = 0;
