@@ -1,7 +1,7 @@
 public class mirrorEnds {
 public static void main (String[] args){
     System.out.println(mirrorEnds ("abXYZba"));
-    System.out.println(mirrorEnds);
+    System.out.println(mirrorEnds("abca"));
 }
     public static String mirrorEnds(String str) {
         String result = "";
