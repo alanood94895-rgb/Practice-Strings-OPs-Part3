@@ -1,6 +1,6 @@
 public class sumNumbers {
 public static void main (String[] args){
-    System.out.println(sumNumbers);
+    System.out.println(sumNumbers("abc123xyz"));
     System.out.println(sumNumbers);
 }
     public static int sumNumbers(String str) {
