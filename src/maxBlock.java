@@ -4,5 +4,6 @@ public static void main (String[] args){
     System.out.println();
 }
     public static int maxBlock(String str) {
+        int max = 0;
 
 }
