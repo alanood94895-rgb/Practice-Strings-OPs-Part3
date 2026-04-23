@@ -11,5 +11,6 @@ public static void main (String[] args){
                 count = 1;
             } else {
                 count++;
-
 }
+            if (count > max) {
+
