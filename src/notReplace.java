@@ -15,7 +15,7 @@ public static void main(String[] args){
 
                 if (before && after) {
                     result += "is not";
-                    i++; // skip next 's'
+                    i++;
                     continue;
                 }
             }
