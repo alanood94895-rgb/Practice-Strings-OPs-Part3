@@ -18,7 +18,6 @@ public static void main (String[] args){
             }
         }
 
-        // add last number if exists
         if (!num.equals("")) {
             sum += Integer.parseInt(num);
         }
