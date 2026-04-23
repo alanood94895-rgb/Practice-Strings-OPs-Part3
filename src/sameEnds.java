@@ -3,5 +3,6 @@ public class sameEnds {
         System.out.println();
         System.out.println();
     }
+    public static String sameEnds(String str) {
 
 }
