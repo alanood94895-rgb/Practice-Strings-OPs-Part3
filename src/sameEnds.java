@@ -1,7 +1,7 @@
 public class sameEnds {
     public static void main (String[] args){
         System.out.println("abXYab"); //"ab"
-        System.out.println("xx");
+        System.out.println("xx"); //"x"
     }
     public static String sameEnds(String str) {
         String result = "";
