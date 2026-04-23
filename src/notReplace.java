@@ -1,7 +1,7 @@
 public class notReplace {
 public static void main(String[] args){
     System.out.println(notReplace ("is test")); //"is not test"
-    System.out.println(notReplace("is-is"));
+    System.out.println(notReplace("is-is")); // "is not-is not"
 }
     public static String notReplace(String str) {
         String result = "";
